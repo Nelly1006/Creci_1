@@ -11,7 +11,7 @@ import Lactancia from './src/pantallas/Lactancia';
 
 const Stack = createStackNavigator();
 
-export default function App() {
+export default function App() { 
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Bienvenida">
@@ -25,4 +25,4 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+} 
