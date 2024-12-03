@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Creci 1",
+    "slug": "creci1",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.creci.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.creci.app",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {}
+  }
+}
